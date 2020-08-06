@@ -3,7 +3,7 @@ from bit import Key
 from tqdm import tqdm 
 
 print(time.ctime(time.time()))  
-limi=2500000
+limi=25000000
 
 if len(sys.argv)>1:
   limi=int(sys.argv[1])
